@@ -1,0 +1,191 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+span.anchor {
+    margin-top: -54px; /* height of nav, in this case 54px */
+    display: block;
+    height: 54px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: #8BC34A;
+    margin-top: 5.5%;
+    -moz-box-shadow: 0px 10px  5px  rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 10px 5px  rgba(0,0,0,0.5);
+	-o-box-shadow: 0px 10px 5px  rgba(0,0,0,0.5);
+}
+
+.mainPhoto {
+    -moz-box-shadow: 5px 5px  rgba(0,0,0,.4);
+	-webkit-box-shadow: 5px 5px  rgba(0,0,0,.4);
+	-o-box-shadow: 5px 5px  rgba(0,0,0,.4);
+}
+
+.jumboText {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-top: 6%;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 50%;
+}
+
+#mainNav {
+    background-color: #5a9216;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    -moz-box-shadow: 0px 5px  5px  rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 5px 5px  rgba(0,0,0,0.5);
+	-o-box-shadow: 0px 5px 5px  rgba(0,0,0,0.5);
+}
+
+#mainNav .navbar-brand {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+#mainNav .navbar-nav {
+    margin-top: 1rem;
+    letter-spacing: 0.0625rem;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: black;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #bef67a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: black;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #bef67a;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+}
+
+.menuButton {
+    background-color: #8BC34A;
+}
+
+#carouselPortfolio {
+    border: 5px solid #8BC34A;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.about {
+    background-color: #8BC34A;
+    font-size: 1.25rem;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    padding-bottom: 2.5%;
+}
+
+.btn-success {
+    background-color: #8BC34A;
+    border-color: #8BC34A;
+}
+
+.btn-success:hover {
+    background-color: #5a9216;
+    border-color: #5a9216;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: font-size 0.3s;
+        -moz-transition: font-size 0.3s;
+        transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+        margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: black;
+        background: #bef67a;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: black;
+        background: #bef67a;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 375px) {
+    .jumbotron {
+        margin-top: 18%;
+    }
+}
+
+@-webkit-keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+@keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}
+  
