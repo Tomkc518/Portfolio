@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
@@ -17,7 +16,7 @@
     <span class="anchor" id="page-top"></span>
     <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Thomas Fuller</a>
+            <a class="navbar-brand" href="#page-top">Thomas Fuller</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase rounded menuButton" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
@@ -25,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-scroll href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-scroll href="#about">About</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" data-scroll href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -42,8 +41,8 @@
             <img src="assets/images/header_photo_zeke.jpg" alt="Headshot of Thomas" class="rounded-circle mainPhoto" width="200px">
             <h1 class="display-4 jumboText">Thomas Fuller</h1>
             <hr>
-            <p class="lead">Full Stack MERN Developer</p>
-            <p class="h6 text-muted"><em>Mongo Express React Node</em></p>
+            <p class="lead">Full Stack Developer</p>
+            <p class="h6 text-muted"><em>and all around Awesome Guy (Just Saying)</em></p>
         </div>
     </div>
     <span class="anchor" id="portfolio"></span>
@@ -111,10 +110,10 @@
             <hr>
             <div class="row">
                 <div class="col-lg-4 ml-auto pt-3">
-                    <p>I was born on a warm Christmas day in San Diego 84'. My father was in the Navy and so I moved a lot as a child. First to Virgina, then Georgia, back to his home state of Michigan and ultimately my current home of Kansas City, MO where I live with my boyfriend Chad and our dog Hank.</p>
+                    <p>I was born on a warm Christmas day in San Diego 84'. My father was in the Navy and so I moved a lot as a child. First to Virgina, then Georgia, back to his home state of Michigan and ultimately my current home of Kansas City, MO where I live with my boyfriend Chad our dog Hank, and our cat Felix.</p>
                 </div>
                 <div class="col-lg-4 mr-auto pt-3">
-                    <p>My hobbies include table top board and card games, notabley Magic the Gathering. I also find myself filling my free time playing video games, going to the dog park, and seeing the latest comic book movie. You will often see me in the kitchen making pasta and multi-tiered delicious cakes.</p>
+                    <p>My hobbies include table top board and card games, notabley Magic the Gathering. I also find myself filling my free time playing video games, going to the dog park, and seeing the latest comic book movie. You will often see me in the kitchen making pasta and multi-tiered delicious cakes. Oh yeah, also Technology!</p>
                 </div>
             </div>
         </div>
@@ -163,6 +162,26 @@
         </div>
       </div>
     </section>
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <nav class="navbar navbarBottom">
+              <a class="navbar-brand hvr-float-shadow" href="https://github.com/Tomkc518" target="blank">
+                <img src="assets/images/github_logo.png" width="75" height="75" alt="Github Logo">
+              </a>
+              <a class="navbar-brand hvr-float-shadow" href="https://www.linkedin.com/in/thomasmakeswebsites/" target="blank">
+                <img src="assets/images/linkedin.png" width="75" height="75" alt="LinkedIn Logo">
+              </a>
+          </nav>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col">
+            <p>Copyright &copy; 2018 Thomas Fuller</p>
+        </div>
+      </div>
+    </div>
+    
 
 
 
@@ -174,6 +193,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
     <script src="assets/app.js"></script>
+    <script src="assets/smooth-scroll.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
