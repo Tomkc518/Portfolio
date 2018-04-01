@@ -175,40 +175,6 @@ span.anchor {
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-@media (min-width: 992px) {
-    #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-        transition: padding-top 0.3s, padding-bottom 0.3s;
-    }
-    #mainNav .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: font-size 0.3s;
-        -moz-transition: font-size 0.3s;
-        transition: font-size 0.3s;
-    }
-    #mainNav .navbar-nav {
-        margin-top: 0;
-    }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-        color: black;
-        background: #bef67a;
-    }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: black;
-        background: #bef67a;
-    }
-    #mainNav.navbar-shrink {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -253,6 +219,8 @@ span.anchor {
     top: 5px;
 }
 
+
+
 @media (max-width: 414px) {
     .jumbotron {
         margin-top: 17%;
@@ -261,12 +229,62 @@ span.anchor {
         margin-top: -56px;
         height: 56px;
     }
+    #return-to-top {
+        width: 25px;
+        height: 25px;
+    }
+    #return-to-top i {
+        font-size: 10px;
+        top: 0px;
+    }
 }
 
 @media (min-width: 736px) {
     span.anchor {
         margin-top: -56px;
         height: 56px;
+    }
+    #return-to-top {
+        width: 25px;
+        height: 25px;
+    }
+    #return-to-top i {
+        font-size: 10px;
+        top: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: font-size 0.3s;
+        -moz-transition: font-size 0.3s;
+        transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+        margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+        color: black;
+        background: #bef67a;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+        color: black;
+        background: #bef67a;
+    }
+    #mainNav.navbar-shrink {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
     }
 }
 
@@ -277,6 +295,14 @@ span.anchor {
     span.anchor {
         margin-top: -82px;
         height: 82px;
+    }
+    #return-to-top {
+        width: 50px;
+        height: 50px;
+    }
+    #return-to-top i {
+        top: 13px;
+        font-size: 19px;
     }
 }
 
