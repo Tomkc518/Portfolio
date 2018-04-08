@@ -95,11 +95,6 @@ span.anchor {
 	        animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-.portfolio,
-.contact {
-    margin-top: 3%;
-}
-
 .about {
     background-color: #8BC34A;
     font-size: 1.25rem;
@@ -107,16 +102,6 @@ span.anchor {
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
     padding-bottom: 2.5%;
-    margin-top: 3%;
-}
-
-#carouselPortfolio {
-    border: 5px solid #8BC34A;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-    margin-top: 5%;
-    margin-bottom: 10%;
 }
 
 .btn-success {
@@ -219,7 +204,14 @@ span.anchor {
     top: 5px;
 }
 
-
+#carouselPortfolio {
+    border: 5px solid #8BC34A;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
 
 @media (max-width: 414px) {
     .jumbotron {

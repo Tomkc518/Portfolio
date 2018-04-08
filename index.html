@@ -47,67 +47,101 @@
     </div>
     <span class="anchor" id="portfolio"></span>
     <section class="portfolio">
-        <div class="container">
-            <h1 class="text-center text-uppercase pt-5">Portfolio</h1>
-            <hr>
-            <div id="carouselPortfolio" class="carousel slide mx-auto" data-ride="carousel">
-                <div class="carousel-inner">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselPortfolio" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselPortfolio" data-slide-to="1"></li>
-                        <li data-target="#carouselPortfolio" data-slide-to="2"></li>
-                        <li data-target="#carouselPortfolio" data-slide-to="3"></li>
-                        <li data-target="#carouselPortfolio" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-item active">
-                        <a href="https://tomkc518.github.io/rps_two_player_game/" target="blank">
-                            <img class="d-block w-100" src="assets/images/RPS3.jpg" alt="First slide">
-                        </a>
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Rock Paper Scissors</h2>
-                        </div>
+      <div class="container carouselHome">
+          <div class="row">
+            <div class="col">
+              <h1 class="text-center text-uppercase pt-5">Portfolio</h1>
+              <hr>
+            </div>       
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card-deck mt-sm-4">
+                  <div class="card">
+                    <a href="https://tomkc518.github.io/hangman_game/" target="blank">
+                      <img class="card-img-top" src="assets/images/hippo_vs_croc.jpg" alt="Hippo Vs Croc">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Safari Hangman</h5>
+                      <p class="card-text">A Hangman game that only accepts A-Z keystrokes. Once the word is guessed the DOM is updated with the word, an image shows, and plays an animal sound.</p>
+                      <p class="card-text"><b>Skills:</b> Bootstrap, Javascript</p>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/images/lightsabers.jpg" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Star Wars Battle!</h2>
-                        </div>
+                  </div>
+                  <div class="card">
+                    <a href="https://tomkc518.github.io/trivia_game/" target="blank">
+                      <img class="card-img-top" src="assets/images/king_pillars.jpg" alt="LOTR King Pillars">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">LOTR Trivia</h5>
+                      <p class="card-text">This is a trivia game that runs completely through without changing the page. Each question is timed and a total score screen is shown at the end.</p>
+                      <p class="card-text"><b>Skills:</b> Bootstrap, Javascript, jQuery</p>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/images/zoo.jpg" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Giphy API</h2>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/images/king_pillars.jpg" alt="Fourth slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>LOTR Trivia</h2>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="assets/images/hippo_vs_croc.jpg" alt="Fifth slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Safari Hangman</h2>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselPortfolio" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselPortfolio" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                  </div>
+              </div>
             </div>
-        </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                <div class="card-deck mt-sm-4">
+                  <div class="card">
+                    <a href="https://tomkc518.github.io/star_wars-battle/" target="blank">
+                      <img class="card-img-top" src="assets/images/lightsabers.jpg" alt="Lightsabers">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Star Wars Battle</h5>
+                      <p class="card-text">This Star Wars inspired game keeps track of information using Objects and multiple DOM locations. Defeating an opponent opens you to pick another.</p>
+                      <p class="card-text"><b>Skills:</b> Bootstrap, Javascript, jQuery</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <a href="https://github.com/Tomkc518/liri-node-app" target="blank">
+                      <img class="card-img-top" src="assets/images/liri.PNG" alt="Lightsabers">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Liri Node App</h5>
+                      <p class="card-text">My first Node project! I was able to accomplish this by using the modules Dotenv, Spotify, Twitter, Request and FS.</p>
+                      <p class="card-text"><b>Skills:</b> Javascript, Node</p>
+                    </div>
+                  </div>   
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col">
+              <div class="card-deck my-sm-4">
+                <div class="card">
+                  <a href="https://tomkc518.github.io/rps_two_player_game/" target="blank">
+                    <img class="card-img-top" src="assets/images/RPS3.jpg" alt="Rock Paper Scissors">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Two Player Rock Paper Scissors</h5>
+                    <p class="card-text">Multiplayer RPS! This game works over the web using the power of Firebase. Two players choose in secret and then the choices are compared.</p>
+                    <p class="card-text"><b>Skills:</b> Bootstrap, Javascript, jQuery, Firebase</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <a href="https://tomkc518.github.io/giphy_api/" target="blank">
+                    <img class="card-img-top" src="assets/images/zoo.jpg" alt="Zoo Animals">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Animal Giphy API</h5>
+                    <p class="card-text">Find the top ten gifs from giphy api based on the animal button clicked. You can also add a new one! Click to activate or stop the gif.</p>
+                    <p class="card-text"><b>Skills:</b> Bootstrap, Javascript, jQuery, AJAX</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     <span class="anchor" id="about"></span>
     <section class="about">
         <div class="container">
-            <h1 class="text-center text-uppercase pt-5">About</h1>
-            <hr>
+            <div class="row">
+              <div class="col">
+                <h1 class="text-center text-uppercase pt-5">About</h1>
+                <hr>
+              </div>       
+            </div>
             <div class="row">
                 <div class="col-lg-4 ml-auto pt-3">
                     <p>I was born on a warm Christmas day in San Diego 84'. My father was in the Navy and so I moved a lot as a child. First to Virgina, then Georgia, back to his home state of Michigan and ultimately my current home of Kansas City, MO where I live with my boyfriend Chad our dog Hank, and our cat Felix.</p>
@@ -121,8 +155,12 @@
     <span class="anchor" id="contact"></span>
     <section class="contact">
       <div class="container">
-        <h1 class="text-center text-uppercase pt-5">Contact Me</h1>
-        <hr>
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center text-uppercase pt-5">Contact</h1>
+            <hr>
+          </div>       
+        </div>
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -182,12 +220,10 @@
         </div>
       </div>
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/app.js"></script>
-    <script src="assets/smooth-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <script src="assets/smooth-scroll.js"></script>
 </body>
 </html>
