@@ -203,6 +203,10 @@ span.anchor {
     box-shadow:         0px -5px 5px #ccc;
 }
 
+.copyright {
+    font-weight: 400;
+}
+
 #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -269,6 +273,10 @@ span.anchor {
     }
     .resume {
         margin-bottom: 10%;
+    }
+    .footerIcon {
+        width: 60px; 
+        height: 60px;
     }
 }
 
