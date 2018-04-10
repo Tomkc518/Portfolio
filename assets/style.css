@@ -167,7 +167,7 @@ span.anchor {
 }
 
 /* Grow */
-.card-deck a,
+.card-deck img,
 .resume {
     display: inline-block;
     vertical-align: middle;
@@ -180,12 +180,16 @@ span.anchor {
     transition-property: transform;
 }
 
-.card-deck a:hover, .card-deck a:focus, .card-deck a:active {
+.card-deck img:hover, .card-deck img:focus, .card-deck img:active {
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.card-deck a {
+    color: #5a9216;
 }
 
 .resume {
